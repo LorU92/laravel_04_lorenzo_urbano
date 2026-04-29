@@ -9,6 +9,13 @@
             <x-hdpink></x-hdpink>
         </div>
     </div>
+
+        @if (session('status'))
+            <div class="alert alert-success">
+                {{ session('status') }}
+            </div>
+        @endif
+
     <!-- section articoli -->
     <section class="container-fluid">
         <h1 class="article-custom">NEWS</h1>

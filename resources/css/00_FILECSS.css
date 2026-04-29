@@ -438,3 +438,29 @@ h4{
         font-size: 3vw;
     }
 }
+
+/* CONTATTACI */
+
+.form-label-custom{
+    font-family: "Host Grotesk", sans-serif;
+}
+
+.btn-button-custom{
+    background-color: var(--pink);
+    color: white;
+    font-weight: 500;
+}
+
+.form-custom{
+    background-color: whitesmoke;
+}
+
+.form-control-custom{
+    border: none;
+}
+
+.btn-button-custom:hover{
+    background-color: white;
+    color: var(--pink);
+}
+
